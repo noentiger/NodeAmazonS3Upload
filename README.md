@@ -1,6 +1,6 @@
 # NodeAmazonS3Upload
 
-## Dependencies and Installation
+## Installation
 
 Ensure Node is installed. This can be done through your package manager or from their [website](http://nodejs.org/).
 
@@ -21,8 +21,8 @@ $ npm run dev
 ```term
 $ S3_BUCKET = xxx AWSAccessKeyId = xxx AWSSecretKey = xxx
 ```
-* Run `node app`
-* Visit [localhost:3000/upload](http://localhost:3000/upload) to try it out
+* Run `npm run dev`
+* Server will [localhost:3000/upload](http://localhost:3000/upload) to try it out
 
 
 ## Deploying the application
