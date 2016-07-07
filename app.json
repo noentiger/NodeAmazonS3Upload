@@ -1,0 +1,7 @@
+{
+  "name": "NodeAmazonS3Upload",
+  "description": "Node Server to upload to Amazon S3 Bucket",
+  "repository": "https://github.com/noentiger/NodeAmazonS3Upload",
+  "logo": "https://static1.squarespace.com/static/51855200e4b0580e000a606c/518569efe4b04b094756d5e2/518569f1e4b04b094756d621/1367697942260/amazon-web-services-logo-cc90d03c8e148873b8b6cc1a7fdbdf1a.png",
+  "keywords": ["amazon", "express", "s3"]
+}
