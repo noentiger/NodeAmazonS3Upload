@@ -34,6 +34,9 @@ See the article [Deploying with Git](https://devcenter.heroku.com/articles/git) 
 * Create the application on Heroku by adding a Git remote (`$ heroku create`)
 * Push your code to the new Heroku repo (`$ git push heroku master`)
 
+* Or just use the button
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 * Set environment variables
 ```term
 § heroku config:set S3_BUCKET = xxx AWSAccessKeyId = xxx AWSSecretKey = xxx
