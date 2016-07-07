@@ -34,6 +34,11 @@ See the article [Deploying with Git](https://devcenter.heroku.com/articles/git) 
 * Create the application on Heroku by adding a Git remote (`$ heroku create`)
 * Push your code to the new Heroku repo (`$ git push heroku master`)
 
+* Set environment variables
+```term
+§ heroku config:set S3_BUCKET = xxx AWSAccessKeyId = xxx AWSSecretKey = xxx
+```
+
 ## Licensing
 
 The files in this repository are, unless stated otherwise, released under the Apache License. You are free to redistribute this code with or without modification. The full license text is available [here](http://www.apache.org/licenses/LICENSE-2.0).
